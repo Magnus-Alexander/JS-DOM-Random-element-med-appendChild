@@ -11,29 +11,28 @@ body{
     height: 100vh;
     width: 100%;
     flex-direction: column;
-
 }
 button{
-    scale: 2.5;
+    height: 80%;
     border-radius: 20%;
     font-size: 27px;
-    transition: all 0.15s ease;
+    transition: all 0.3s ease;
     background-color: #2de1c2;
     color: #f21b3f;
     border-style: none;
 }
 
 button:hover{
-    scale: 2.6;
+ height: 85%;
     background-color: #8C2155;
     color: #EDF0DA;
 }
 
 button:active{
-    scale: 2.5;
+    height: 78%;
     font-size: 27px;
-    background-color: #4C3B4D;
-    color: #F06C9B;
+    background-color: #d31243;
+    color: #031326;
 }
 
 #randomElementOutput{

@@ -56,10 +56,9 @@ function fruits() {
         child = output.firstChild;
     }
     let paragraph = document.createElement("p");
-    // let randomFruit = exoticFruits[Math.floor(Math.random() * exoticFruits.length)];
     let randomFruit = Math.floor(Math.random() * exoticFruits.length);
-    paragraph.textContent = exoticFruits[randomFruit]
 
-    output.append(paragraph);
+    paragraph.textContent = exoticFruits[randomFruit]
+    output.appendChild(paragraph);
     console.log(exoticFruits[randomFruit])
 }
